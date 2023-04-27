@@ -1,0 +1,19 @@
+{
+  "name": "Ngn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "radiancegeorge <radiancegeorge@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config ./src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-binance-api": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
